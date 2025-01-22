@@ -28,7 +28,7 @@ for i in range(1, 101):
             lives -= 10
     else:
         # print(i)
-        if int(x) == i:
+        if x == str(i):
             print("Correct")
         else:
             print(f"Incorrect. Expected = {i}")
